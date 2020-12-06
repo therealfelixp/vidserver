@@ -1,0 +1,14 @@
+{
+  "name": "vidserver",
+  "version": "0.0.1",
+  "description": "Serve videos to cytube",
+  "main": "vidserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix Prior",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
