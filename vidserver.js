@@ -9,7 +9,6 @@ var express = require('express')
 var app = express()
 
 const port = 3500
-const host = '192.168.0.200'
 
 var httpServer = http.createServer(app);
 var httpsServer = https.createServer(credentials, app);
@@ -33,6 +32,6 @@ app.get('/manifest.json', (req, res)=> {
     })
 })
 
-httpServer.listen(port, host, () => {
-    console.log('vidserver listening on ' + host + ":" + port)
+httpServer.listen(port, () => {
+    console.log('vidserver listening on port ' + port)
 })
