@@ -32,6 +32,6 @@ app.get('/manifest.json', (req, res)=> {
     })
 })
 
-httpServer.listen(port, () => {
+httpsServer.listen(port, () => {
     console.log('vidserver listening on port ' + port)
 })
